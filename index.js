@@ -53,4 +53,3 @@ const Calculator = {
 
 const actionApplyer = () => {
 }
-}

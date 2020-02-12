@@ -55,7 +55,8 @@ const actionApplyer = (start_int, functions) => {
   let returnValue = start_int;
   
   for(const f of functions){
-    
+    returnValue = f[returnValue]
   }
-  }
+  
+  return returnValue
 }

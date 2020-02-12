@@ -51,5 +51,6 @@ const Calculator = {
   divide: (a,b) => {return a / b;}
 }
 
-const actionApplyer = () => {
+const actionApplyer = (start_int, functions) => {
+  let 
 }

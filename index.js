@@ -26,6 +26,16 @@ function(){console.log("do something")}
 () => {console.log("do something")
 */
 
+// closure ES5
+/*
+function wrapAdjective(flair = "*"){
+  return function(quality = "special"){
+    return `You are ${flair + quality + flair}!`
+  }
+}
+*/
+
+
 //closures ES6
 const wrapAdjective = (flair = "*") => {
   return (quality = "special") => {
@@ -33,15 +43,9 @@ const wrapAdjective = (flair = "*") => {
   }
 }
 
-/*
-
-*/
-// closure ES5
-
-function wrapAdjective(flair = "*"){
-  return function(quality = "special"){
-    return `You are ${flair + quality + flair}!`
-  }
+const calculator = {
+  add: (a,b) => {return a + b;},
+  subtract: (a,b) => {return a - b;},
+  multiply: (a,b) => {return a * b;},
+  divide: (a,b) => {return a / b;}
 }
-
-

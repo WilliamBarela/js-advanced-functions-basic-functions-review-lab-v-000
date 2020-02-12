@@ -18,8 +18,11 @@ const mondayWork = (activity = "go to the office") => {
 }
 
 //Anonymous Functions:
-// ES5
-
 /*
+// ES5
+function(){console.log("do something")}
 
+//ES6
+() => {console.log("do something")
 */
+

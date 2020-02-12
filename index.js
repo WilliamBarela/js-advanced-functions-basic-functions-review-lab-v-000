@@ -54,7 +54,7 @@ const Calculator = {
 const actionApplyer = (start_int, functions) => {
   let returnValue = start_int;
   
-  for(const f of functions){
+  for(let i = 0; i < functions.length){
     returnValue = f[returnValue]
   }
   

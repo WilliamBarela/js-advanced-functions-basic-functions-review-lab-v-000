@@ -30,7 +30,7 @@ function(){console.log("do something")}
 
 const wrapAdjective = (flair = "*") => {
   return (quality = "special") => {
-    return `You are ${flair + quality + flair}.`
+    return `You are ${flair + quality + flair}!`
   }
 }
 

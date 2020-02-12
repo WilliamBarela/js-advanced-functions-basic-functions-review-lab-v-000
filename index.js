@@ -52,5 +52,10 @@ const Calculator = {
 }
 
 const actionApplyer = (start_int, functions) => {
-  let 
+  let returnValue = start_int;
+  
+  for(const f of functions){
+    
+  }
+  }
 }

@@ -26,3 +26,11 @@ function(){console.log("do something")}
 () => {console.log("do something")
 */
 
+//closures ES6
+
+const wrapAdjective = (flair = "*") => {
+  return (quality = "special") => {
+    return `You are ${flair + quality + flair}.`
+  }
+}
+
